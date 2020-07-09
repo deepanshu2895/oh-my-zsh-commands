@@ -30,3 +30,12 @@
     gstc     |     git stash clear
     ga       |     git add
     ga       |     git add
+
+
+# Git Stash
+
+    git stash save "my_stash"   (Where "my_stash" is the stash name)
+    git stash save "my_stash"   (All the stashes are stored in a stack)
+    git stash pop stash@{n}     (To apply a stash and remove it from the stash stack)
+    git stash apply stash@{n}.  (To apply a stash and keep it in the stash stack). (Where n is the index of the stashed change.)
+    
