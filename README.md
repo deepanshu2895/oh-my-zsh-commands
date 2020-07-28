@@ -35,7 +35,19 @@
 # Git Stash
 
     git stash save "my_stash"   (Where "my_stash" is the stash name)
-    git stash save "my_stash"   (All the stashes are stored in a stack)
+    git stash list              (All the stashes are stored in a stack)
     git stash pop stash@{n}     (To apply a stash and remove it from the stash stack)
     git stash apply stash@{n}.  (To apply a stash and keep it in the stash stack). (Where n is the index of the stashed change.)
+    
+# Clone a repository
+    
+    git clone <url>
+    git remote set-url origin http://github.com/myname/reponame
+    ggp
+    
+# Get rid of being asked “Enter passphrase for key ” while doing ssh operation on a remote host
+
+    ssh-add ~/.ssh/id_rsa
+
+
     
