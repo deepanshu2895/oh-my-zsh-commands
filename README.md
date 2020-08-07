@@ -53,5 +53,8 @@
 
     https://zellwk.com/blog/install-mongodb/
 
+# Create SSH Key on mac
+
+    https://www.youtube.com/watch?v=XoASOMU8lNk&t=372s
 
     
