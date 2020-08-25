@@ -56,5 +56,10 @@
 # Create SSH Key on mac
 
     https://www.youtube.com/watch?v=XoASOMU8lNk&t=372s
+    
+    
+# SWITCHING FROM TERMINAL (MAC) TO cOMMAND PROMPT (WINDOWS) 
+
+    ls              |              dir
 
     
