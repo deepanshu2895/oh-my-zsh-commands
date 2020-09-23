@@ -45,6 +45,10 @@
     git remote set-url origin http://github.com/myname/reponame
     ggp
     
+# Creating a Branch from a Tag and Checking out to it
+
+    git checkout -b <branch-name> <tag>
+    
 # Get rid of being asked “Enter passphrase for key ” while doing ssh operation on a remote host
 
     ssh-add ~/.ssh/id_rsa
@@ -62,4 +66,14 @@
 
     ls              |              dir
 
+# Set up Charles - Using Charles from an iPhone
+
+    1. Go to the Settings app
+    2. Tap Wi-Fi
+    3. Find the network you are connected to and then tap the blue disclosure arrow to configure the network
+    4. Scroll down to the HTTP Proxy setting, tap Manual
+    5. Enter the IP address of your computer running Charles in the Server field, and the port Charles is running on in the Port field (usually 8888)
+    6. Leave Authentication set to Off
+    7. All of your web traffic from your iPhone will now be sent via Charles. You should see a prompt in Charles when you first make a connection from the iPhone, asking you to allow the traffic
+    8. Remember to disable the HTTP Proxy in your Settings when you stop using Charles, otherwise you'll get confusing network failures in your applications!
     
