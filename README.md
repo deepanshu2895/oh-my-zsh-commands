@@ -32,7 +32,7 @@
     ga       |     git add
 
 
-# Git Stash
+# Git Reset Hard Head
     git reset --hard HEAD
 
 # Git Stash
