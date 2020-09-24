@@ -33,6 +33,9 @@
 
 
 # Git Stash
+    git reset --hard HEAD
+
+# Git Stash
 
     git stash save "my_stash"   (Where "my_stash" is the stash name)
     git stash list              (All the stashes are stored in a stack)
