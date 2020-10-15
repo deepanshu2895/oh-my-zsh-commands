@@ -1,0 +1,13 @@
+View Controller A -> View Controller B (nib)
+
+
+View Controller A:
+
+let viewControllerB = ViewControllerB(nibName: "ViewControllerB", bundle: nil)
+viewControllerB.modalPresentationStyle = .overFullScreen
+present(viewControllerB, animated: true, completion: nil)
+
+
+View Controller B:
+
+view.backgroundColor = UIColor.black.withAlphaComponent(0.7)
