@@ -68,6 +68,9 @@
 # SWITCHING FROM TERMINAL (MAC) TO cOMMAND PROMPT (WINDOWS) 
 
     ls              |              dir
+    clear           |              cls
+    mkdir           |              mkdir
+    touch           |              echo
 
 # Set up Charles - Using Charles from an iPhone
 
