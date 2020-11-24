@@ -70,7 +70,6 @@
     ls              |              dir
     clear           |              cls
     mkdir           |              mkdir
-    touch           |              echo
 
 # Set up Charles - Using Charles from an iPhone
 
