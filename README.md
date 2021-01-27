@@ -31,7 +31,9 @@
     ga       |     git add
     ga       |     git add
 
-
+# Delete Local Branch
+    git branch -d branch_name
+    
 # Git Reset Hard Head
     git reset --hard HEAD
 
