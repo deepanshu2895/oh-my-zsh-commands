@@ -86,4 +86,9 @@
        You should see a prompt in Charles when you first make a connection from the iPhone, asking you to allow the traffic
     8. Remember to disable the HTTP Proxy in your Settings when you stop using Charles, 
        otherwise you'll get confusing network failures in your applications!
+       
+       
+# Xcode: Markup For Playgrounds
+
+    https://thomashanning.com/xcode-markup-for-playgrounds/
     
